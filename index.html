@@ -18,24 +18,29 @@
         <label for="player1Input">PLAYER 1 NAME:</label>
         <input type="text" id="player1Input">
       </div>
-      <div class="inputContainer">
+      <div class="inputContainer" id="player2">
         <label for="player2Input">PLAYER 2 NAME:</label>
         <input type="text" id="player2Input">
-        
       </div>
-
+      <div class="opponent">
+        <button class="chooseOpponent active" id="player">
+          <img src="images/player.png" alt="computer">
+          <p>PLAYER</p>
+        </button>
+        <button class="chooseOpponent" id="computer"><img src="images/computer.png" alt="player"><P>COMPUTER</p></button>
+      </div>
     </div>
     <section>
-    <div class="tile" dataset-tile-index="0">0</div>
-    <div class="tile" dataset-tile-index="1">1</div>
-    <div class="tile" dataset-tile-index="2">2</div>
-    <div class="tile" dataset-tile-index="3">3</div>
-    <div class="tile" dataset-tile-index="4">4</div>
-    <div class="tile" dataset-tile-index="5">5</div>
-    <div class="tile" dataset-tile-index="6">6</div>
-    <div class="tile" dataset-tile-index="7">7</div>
-    <div class="tile" dataset-tile-index="8">8</div>
-  </section>
+      <div class="tile" dataset-tile-index="0">0</div>
+      <div class="tile" dataset-tile-index="1">1</div>
+      <div class="tile" dataset-tile-index="2">2</div>
+      <div class="tile" dataset-tile-index="3">3</div>
+      <div class="tile" dataset-tile-index="4">4</div>
+      <div class="tile" dataset-tile-index="5">5</div>
+      <div class="tile" dataset-tile-index="6">6</div>
+      <div class="tile" dataset-tile-index="7">7</div>
+      <div class="tile" dataset-tile-index="8">8</div>
+    </section>
     <button class="startBtn">START GAME</button>
   </main>
 </body>
